@@ -1,1 +1,1 @@
-This is an end to end Netwrok Security project for phishing data.
+This is an end to end Network Security project for phishing data.
