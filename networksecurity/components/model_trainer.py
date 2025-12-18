@@ -122,7 +122,7 @@ class ModelTrainer:
             test_file_path=self.data_transformation_artifact.transformed_test_file_path
 
             train_array=load_numpy_array_data(train_file_path)
-            test_array=load_numpy_array_data(test_file_path)
+            test_array=load_numpy_array_data(test_file_path) 
 
             x_train,y_train,x_test,y_test=train_array[:,:-1],train_array[:,-1],test_array[:,:-1],test_array[:,-1]
 
