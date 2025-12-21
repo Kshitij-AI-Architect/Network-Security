@@ -133,7 +133,7 @@ class ModelTrainer:
         network_model = NetworkModel(preprocessor=preprocessor,model=best_model)
         save_object(file_path=self.model_trainer_config.trained_model_file_path,obj=network_model)
         
-        save_object = ("final_model/model.pkl", best_model)
+        save_object(file_path="final_model/model.pkl", obj=best_model)
         
         #Model Trainer Artifact
         model_trainer_artifact=ModelTrainerArtifact(
